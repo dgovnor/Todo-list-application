@@ -1,5 +1,13 @@
-export default () => (
-  <div>
-    <h1>Hello World</h1>
-  </div>
-);
+import App from "./App";
+//import Head from "next/head";
+//require("bootstrap/dist/css/bootstrap.css");
+
+const Index = () => {
+  return (
+    <div>
+      <App />
+    </div>
+  );
+};
+
+export default Index;
